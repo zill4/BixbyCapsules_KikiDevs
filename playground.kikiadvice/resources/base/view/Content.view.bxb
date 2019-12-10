@@ -1,0 +1,17 @@
+result-view {
+  match: Content (this)
+  render {
+    layout {
+      section {
+        content {
+            image {
+              url ("[#{value(this.image)}]")
+              object-fit (Cover)
+              background-color (Transparent)
+              aspect-ratio (4:3)
+            }
+        }
+      }
+    }
+  }
+}

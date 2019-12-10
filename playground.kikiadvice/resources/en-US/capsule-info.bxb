@@ -1,0 +1,15 @@
+capsule-info {
+  display-name (Kiki advice)
+  developer-name (KiKi Devs)
+  icon-asset (kiki_kawaii.png)
+  description ("Looking for top quality advice, look no further than Kiki's advice!")
+  dispatch-name (Kiki advice)
+  search-keywords {
+    keyword (advice) 
+    keyword (help)
+    keyword (life)
+    keyword (hacks)
+    keyword (tips)
+    keyword (motivation)
+  }
+}

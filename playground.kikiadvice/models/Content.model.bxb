@@ -1,0 +1,11 @@
+structure (Content) {
+  description (Output)
+  property (text) {
+    type (Fact)
+    min (Optional) max (One)
+  }
+  property (image) {
+    type (viv.image.Url)
+    min (Optional) max (One)
+  }
+}
